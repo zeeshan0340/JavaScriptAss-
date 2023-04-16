@@ -1,0 +1,20 @@
+[ 
+  {   
+    "title": "Zack Snyder's Justice League",  
+      "genre": "Action",    "rating": 8.1,  
+        "year": 2021,  
+          "language": "English",  
+            "duration": "4h 2min", 
+               "image": "https://www.themoviedb.org/t/p/original/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg" 
+               
+ },  
+{    "title": "Godzilla vs. Kong",   
+ "genre": "Action",   
+  "rating": 6.4,   
+   "year": 2021,   
+    "language": "English", 
+       "duration": "1h 53min", 
+          "image": "https://www.themoviedb.org/t/p/original/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"  
+        }
+           
+        ]

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Recommendation App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Recommendation App</h1>
+      <form id="movie-form">
+        <div>
+          <label for="genre">Genre:</label>
+          <select id="genre">
+            <option value="">--Select--</option>
+            <option value="All">All</option>
+            <option value="Action">Action</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Drama">Drama</option>
+            <option value="Horror">Horror</option>
+            <option value="Sci-Fi">Sci-Fi</option>
+          </select>
+        </div>
+        <div>
+          <label for="year">Year:</label>
+          <select id="year">
+            <option value="">--Select--</option>
+            <option value="All">All</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+          </select>
+        </div>
+        <div>
+          <label for="language">Language:</label>
+          <select id="language">
+            <option value="">--Select--</option>
+            <option value="All">All</option>
+            <option value="English">English</option>
+            <option value="Urdu">Urdu</option>
+            <option value="Arabic">Arabic</option>
+            <option value="Pashto">Pashto</option>
+            <option value="Persian">Persian</option>
+          </select>
+        </div>
+        <div>
+          <label for="rating">Rating:</label>
+          <select id="rating">
+            <option value="">--Select--</option>
+            <option value="All">All</option>
+            <option value="9.0">9.0+</option>
+            <option value="8.0">8.0+</option>
+            <option value="7.0">7.0+</option>
+            <option value="6.0">6.0+</option>
+            <option value="5.0">5.0+</option>
+          </select>
+        </div>
+        <button type="submit">Get Recommendations</button>
+      </form>
+      <div id="movie-details"></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
